@@ -116,12 +116,7 @@
     border: 1px solid black;
   }
   
-  img {
-    width: 750px;
-    max-width: 100%;
-    border-radius: 14px;
-  }
-  
+ 
   h1.typewriter-text {
     margin-top: 20px;
     overflow: hidden;
