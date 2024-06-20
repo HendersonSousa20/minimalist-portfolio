@@ -272,7 +272,7 @@ nav a:hover {
 
 #hamburger-menu {
     color: white;
-    display: block;
+    display: inline;
 }
 
 header img {
