@@ -223,6 +223,7 @@
 
 /* Styles for the header and navigation */
 #hamburger-menu {
+color: whitesmoke;
 display: none;
 font-size: 30px;
 background: none;
@@ -231,8 +232,9 @@ cursor: pointer;
 transition: transform 0.3s ease, color 0.3s ease;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 header { 
+    max-width: 768px;
     display: flex;
     justify-content: space-around;
     align-items: center;
