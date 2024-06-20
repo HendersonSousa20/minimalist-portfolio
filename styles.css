@@ -165,9 +165,8 @@
 
       /* Styles for the header and navigation */
       #hamburger-menu {
-        color: whitesmoke;
         display: none;
-        font-size: 30px;
+        font-size: 40px;
         background: none;
         border: none;
         cursor: pointer;
@@ -188,14 +187,9 @@
     /* Mobile -v */
 
 
-    @media (max-width: 768px) {
+    @media (max-width: 600px ) {
         header { 
-            max-width: 768px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: black;
-        
+            width: 100%;
         }
         
 
@@ -265,7 +259,11 @@
 
         #hamburger-menu {
             color: white;
-            display: inline;
+            display: inline-block;
+            position: relative;
+            right: 20px;
+            flex-direction: row;
+            justify-content: center;
         }
 
         header img {
