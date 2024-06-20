@@ -41,7 +41,6 @@
     }
 
     nav a:hover {
-        text-decoration: underline;
         transform: scale(1.1);
         transition: 2s;
     }
@@ -233,14 +232,12 @@ transition: transform 0.3s ease, color 0.3s ease;
 }
 
 @media (max-width: 600px) {
-header {
-    position: relative;
+header { 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px 20px;
     background-color: black;
-    border-bottom: 1px solid white;
+   
 }
 
 nav {
@@ -262,14 +259,13 @@ nav a {
     width: 100%;
     text-align: center;
     color: white;
-    
-   
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: #ddd;
+    text-decoration: none;
 }
 
 #hamburger-menu {
