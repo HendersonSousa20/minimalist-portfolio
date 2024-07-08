@@ -271,6 +271,17 @@ footer p {
         padding: 10px;
     }
 
+    .home h1 {
+        font-size: 80;
+        text-wrap: wrap;
+    }
+
+    .home h2 {
+        font-size: 40px;
+        text-wrap: wrap;
+    }
+
+
     header img {
         text-align: center;
         transition: opacity 0.3s ease;
