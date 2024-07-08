@@ -9,15 +9,14 @@ body {
     font-family: 'Montserrat';
     background-color: black;
     color: white;
+  
 }
 
 header {
-   
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
     align-items: center; 
-   
 }
 
 header img {
@@ -30,8 +29,9 @@ nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: right;
-    gap: 40px;
+    justify-content: center;
+    gap: 20px;
+    
 }
 
 nav a {
@@ -60,11 +60,73 @@ nav a:hover {
     border-bottom: 1px solid rgb(95, 95, 95);
 }
 
+.home {
+    padding: 60px;
+    margin-bottom: 120px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(234, 234, 234);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Anton sc';
+    animation: fadeIn 5s;
+}
+
+.home h1 {
+margin-top: 50px;
+  line-height: 0.5;
+  font-size: 150px;
+} 
+
+.home h2 {
+  line-height: 1;
+  font-size: 90px;
+  margin-bottom: 20px;
+} 
+
+.home p {
+    font-family: 'Open Sans';
+    font-size: medium;
+}
+
+.home button {
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
+    font-family: sans-serif;
+    background-color: transparent;
+    border: 0.5px solid whitesmoke;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.home button:hover {
+    border-radius: 10px;
+     background-color: whitesmoke;
+    color: black;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.home a {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: #ccc;
+}
+
+.home a:hover {
+    color: black;
+    transition: 1s;
+}
+
 main {
     margin-left: 20px;
 }
 
-h2 {
+h2 { 
+    text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -178,6 +240,27 @@ footer p {
         opacity: 1;
     }
 }
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animated-element {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .animated-element.is-visible {
+    animation: slideIn 1s forwards;
+  }
 
 /* Mobile -v */
 @media (max-width: 600px) {
