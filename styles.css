@@ -271,8 +271,12 @@ footer p {
         padding: 10px;
     }
 
+    .home {
+        text-wrap: wrap;
+    }
+
     .home h1 {
-        font-size: 80;
+        font-size: 60px;
         text-wrap: wrap;
     }
 
