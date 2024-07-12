@@ -154,6 +154,12 @@ strong {
     color: whitesmoke;
 }
 
+
+svg {
+    height: 60px;
+    fill: white;
+  }
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -318,12 +324,12 @@ footer p {
     }
 
     .home h1 {
-        font-size: 60px;
+        font-size: 65px;
         text-wrap: wrap;
     }
 
     .home h2 {
-        font-size: 40px;
+        font-size: 45px;
         text-wrap: wrap;
     }
 
@@ -397,6 +403,7 @@ footer p {
         flex-wrap: wrap;
         justify-content: space-around;
         word-wrap: break-word;
+        align-items: center;
     }
 
     .project-card img {
