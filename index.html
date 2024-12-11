@@ -8,11 +8,11 @@
     <meta property="og:title" content="Portfolio de Henderson Sousa">
     <meta property="og:description" content="Front-End Developer apaixonado por criar experiências envolventes. Explore meu trabalho e habilidades.">
 
-    <!-- fonts -->
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <!-- fonts -->
+   
 
     <link rel="icon" type="image/x-icon" href="./img/avatartion.png">
     <meta property="og:image" content="">
@@ -31,8 +31,10 @@
         </div>
     </div>
 
-    <header>
-        <img id="logo" src="./img/Front-end_20240619_201521_0000.png" alt="">
+    <header class="professional-header">
+        <div class="logo-container">
+            <img id="logo" src="./img/Front-end_20240619_201521_0000.png" alt="Logo">
+        </div>
         <nav id="nav-menu">
             <a href="#aboutme">ABOUT ME</a>
             <a href="#skills">SKILLS</a>
@@ -40,7 +42,11 @@
             <a href="https://www.linkedin.com/in/henderson-sousa-64550726a/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
             <a href="https://github.com/HendersonSousa20" target="_blank" rel="noopener noreferrer">GITHUB</a>
         </nav>
-        <span id="hamburger-menu"><i class="ph ph-dots-three-circle-vertical"></i></span>
+        <button id="hamburger-menu" aria-label="Open navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </header>
 
     <div class="line"></div>
