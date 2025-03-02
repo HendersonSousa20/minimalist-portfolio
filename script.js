@@ -12,3 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", function() {  const animatedElements = document.querySelectorAll('.animated-element');
     const observer = new IntersectionObserver(entries => {    entries.forEach(entry => {      if (entry.isIntersecting) {        entry.target.classList.add('is-visible');      }    });  });
     animatedElements.forEach(element => {    observer.observe(element);  });});
+
+
+    const cursor = document.getElementById("cursor");
+        
+    document.addEventListener("mousemove", (event) => {
+        cursor.style.transform = `translate(${event.clientX}px, ${event.clientY}px)`;
+    });

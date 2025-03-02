@@ -13,6 +13,21 @@ body {
     font-family: 'Montserrat';
     background-color: black;
     color: white;
+    cursor: none;
+}
+
+
+.cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
 }
 
 /* Estilo geral do header */
@@ -206,11 +221,9 @@ header.professional-header {
     color: darkgray;
     padding: 40px;
     background: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(7.5px);
-    -webkit-backdrop-filter: blur(7.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+   
+
+  
     animation: fadeIn 5s;
 }
 
