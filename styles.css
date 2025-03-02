@@ -221,9 +221,6 @@ header.professional-header {
     color: darkgray;
     padding: 40px;
     background: rgba(0, 0, 0, 0.2);
-   
-
-  
     animation: fadeIn 5s;
 }
 
@@ -259,6 +256,7 @@ margin-top: 50px;
 .home p {
     font-family: 'Open Sans';
     font-size: medium;
+    text-transform: uppercase;
 }
 
 .home button {
