@@ -107,6 +107,11 @@ header.professional-header {
         display: flex;
     }
 
+
+    .cursor {
+        display: hide;
+    }
+
     #nav-menu {
         display: none;
         flex-direction: column;
