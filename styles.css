@@ -276,7 +276,12 @@ margin-top: 50px;
 }
 
 .home button:hover {
-    border-radius: 10px;
+    -webkit-border-top-right-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius-topright: 100px;
+-moz-border-radius-bottomleft: 100px;
+border-top-right-radius: 100px;
+border-bottom-left-radius: 100px;
      background-color: whitesmoke;
     color: black;
     transform: scale(1.1);
